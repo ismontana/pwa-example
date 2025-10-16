@@ -9,6 +9,8 @@
 
     <!-- Vincular el manifest -->
     <link rel="manifest" href="manifest.json">
+
+    <link rel="apple-touch-icon" href="pwa-example/icons/icon-192x192.png">
     
     <!-- Color de la barra del navegador en móviles -->
      <meta name="theme-color" content="#2196f3">
@@ -27,7 +29,7 @@
     <!-- Registar el Service Worker -->
      <script>
         if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('pwa-example/sw.js')
+            navigator.serviceWorker.register('/pwa-example/sw.js')
             .then(reg => console.log('Service Worker registrado'))
             .catch(err => console.warn('Error al registrar el Service Worker'));
         }
