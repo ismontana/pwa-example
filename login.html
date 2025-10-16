@@ -4,26 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-
-    <base href="pwa-example/">
-
-    <!-- Vincular el manifest -->
-    <link rel="manifest" href="pwa-example/manifest.json">
-    
-    <!-- Color de la barra del navegador en móviles -->
-     <meta name="theme-color" content="#2196f3">
-
 </head>
 <body>
     <h1>Inicia sesión</h1>
-
-        <!-- Registar el Service Worker -->
-     <script>
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('serviceWorker/sw.js')
-            .then(reg => console.log('Service Worker registrado'))
-            .catch(err => console.warn('Error al registrar el Service Worker'));
-        }
-     </script>
 </body>
 </html>
