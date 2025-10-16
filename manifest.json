@@ -1,8 +1,8 @@
 {
     "name": "Aromantial APP",
     "short_name": "Aromantial",
-    "start_url": "pwa-example/index.html",
-    "scope": "pwa-example/",
+    "start_url": "/pwa-example/index.html",
+    "scope": "/pwa-example/",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#2196f3",
