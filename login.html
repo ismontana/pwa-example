@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi primera PWA</title>
+    <title>Login</title>
 
     <base href="pwa-example/">
 
@@ -15,16 +15,9 @@
 
 </head>
 <body>
-    <h1>Bienvenido a mi PWA</h1>
-    <p>Se puede instalar como app en tu móvil</p>
-    <button onclick="alert('Hola, soy una app!')">Picale aquí</button>
+    <h1>Inicia sesión</h1>
 
-    <ul>
-        <li><a href="pwa-example/index.html"></a>Inicio</li>
-        <li><a href="pwa-example/login.html"></a>Iniciar sesión</li>
-    </ul>
-
-    <!-- Registar el Service Worker -->
+        <!-- Registar el Service Worker -->
      <script>
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('serviceWorker/sw.js')
